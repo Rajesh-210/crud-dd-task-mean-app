@@ -9,8 +9,8 @@ pipeline {
         DOCKERHUB_USERNAME = "chilukurir"
 
         // Docker image names
-        BACKEND_IMAGE = "${DOCKERHUB_USERNAME}/mean-backend1:latest"
-        FRONTEND_IMAGE = "${DOCKERHUB_USERNAME}/mean-frontend1:latest"
+        BACKEND_IMAGE = "${DOCKERHUB_USERNAME}/mean-backend:latest"
+        FRONTEND_IMAGE = "${DOCKERHUB_USERNAME}/mean-frontend:latest"
     }
 
     stages {
