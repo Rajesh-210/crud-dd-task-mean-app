@@ -55,7 +55,7 @@ pipeline {
                     echo "🔥 Stopping old containers to avoid conflicts..."
                     
                     # Navigate to Jenkins workspace where compose file is located
-                    cd /var/lib/jenkins/workspace/mean-app-cicd
+                    cd /var/lib/jenkins/workspace/Migration
                     
                     # Stop & remove old containers
                     docker compose down --remove-orphans
